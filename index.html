@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Cheklist</h1>
+        <button type="menu" id="abrir-nav">Adicionar +</button>
+    </header>
+    <main>
+        <nav>
+            <form>
+                <input type="text" id="task" placeholder="Cadastrar tarefas">
+                <button type="submit">Cadastrar</button>
+                <button type="reset" id="fecha-nav">Fechar</button>
+            </form>
+        </nav>
+        <div class="container">
+            <ul>
+            </ul>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

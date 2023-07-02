@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DAC8B3;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+header{
+    background-color: #bb9469;
+    display: flex;
+    padding: 16px;
+    font-size: 32px;
+    font-style: italic;
+    justify-content: center;
+    border-bottom: 16px solid #856849;
+}
+header button{
+    margin-left: 24px;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 24px;
+    background-color: rgba(0, 148,50, 0.6);
+    color: white;
+}
+header button:hover,
+nav button:hover{
+    background-color: rgba(0, 148,50, 1);
+}
+nav{
+    background-color: aliceblue;
+    padding: 16px;
+    display: none;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+input, button{
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+}
+input{
+    border-bottom: 2px solid #856849;
+    width: 480px;
+}
+nav button{
+    color: white;
+    background-color: rgba(0, 148,50, 0.9);
+    margin-left: 10px;
+    cursor: pointer;
+}
+#fecha-nav{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+#fecha-nav:hover{
+    background-color: red;
+}
+li{
+
+    background-color: aliceblue;
+    margin: 16px auto;
+    padding: 16px;
+    max-width: 840px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #856849;
+}
+p{
+    cursor: pointer;
+}
+.tarefa-realizada{
+    text-decoration: line-through;
+    color: #009432;
+}
