@@ -77,7 +77,7 @@ li{
 p{
     cursor: pointer;
 }
-.tarefa-realizada{
+.task-complete{
     text-decoration: line-through;
     color: #009432;
 }

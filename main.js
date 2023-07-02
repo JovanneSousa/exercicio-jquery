@@ -5,11 +5,12 @@ $(document).ready(function(){
     $('#fecha-nav').click(function(){
         $('nav').slideUp();
     })
+    const tarefa = 0;
+    
     $('form').on('submit', function(e){
         e.preventDefault();
 
         const task =  $('#task').val();
-    
         if(task == ""){
             alert('insira uma tarefa Válida')
         }else{
@@ -20,8 +21,8 @@ $(document).ready(function(){
         $('#task').val('');
         
         $('p').click(function(){
-            $('p').addClass('tarefa-realizada')
-    })
+            $(this).addClass('task-complete');
+        })
     })
 
 })
